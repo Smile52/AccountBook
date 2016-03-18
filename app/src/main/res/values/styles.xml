@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item><!--解决activity切换时短暂黑屏-->
+    </style>
+    <!-- -->
+    <style name="redTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#f44336</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#f44336</item>
+        <item name="colorAccent">#f44336</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item><!--解决activity切换时短暂黑屏-->
+
+    </style>
+    <style name="blueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#70f3ff</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#70f3ff</item>
+        <item name="colorAccent">#70f3ff</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item><!--解决activity切换时短暂黑屏-->
+
+    </style>
+</resources>

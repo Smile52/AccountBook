@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.smile.accountbook.activity.AddBillActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+
+    </android.support.v7.widget.Toolbar>
+    <EditText
+        android:layout_marginTop="50px"
+        android:id="@+id/id_et_theme"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:background="@drawable/shape"
+        android:hint="   描述下主题"
+        android:textColorHint="#c8d5d4"
+        android:layout_marginLeft="50px"
+        android:textSize="60px"
+        android:textCursorDrawable="@null"
+        />
+
+    <EditText
+        android:layout_marginTop="30px"
+        android:id="@+id/id_et_money"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:background="@drawable/shape"
+        android:hint="   请输入金额"
+        android:textColorHint="#c8d5d4"
+        android:layout_below="@id/id_et_theme"
+        android:layout_marginLeft="50px"
+        android:textSize="60px"
+        android:textCursorDrawable="@null"
+        android:digits="0123456789."
+        />
+
+    <EditText
+        android:layout_marginTop="30px"
+        android:id="@+id/id_et_time"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:background="@drawable/shape"
+        android:hint="   给个时间吧"
+        android:textSize="60px"
+        android:textColorHint="#c8d5d4"
+        android:layout_below="@id/id_et_money"
+        android:layout_marginLeft="50px"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_tv_change"
+        android:text="修改时间"
+        android:layout_toRightOf="@id/id_et_time"
+        android:layout_below="@id/id_et_money"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="50px"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50px"/>
+    <Button
+        android:layout_width="300px"
+        android:layout_height="130px"
+        android:id="@+id/id_btn_submint"
+        android:layout_below="@id/id_et_time"
+        android:layout_marginLeft="100px"
+        android:text="确定"
+        android:textSize="60px"
+        android:background="@drawable/button"
+        android:layout_marginTop="30px"
+        />
+</com.zhy.autolayout.AutoLinearLayout>

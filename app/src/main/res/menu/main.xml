@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/id_green"
+        android:orderInCategory="80"
+        android:title="清新绿"
+        ></item>
+    <item
+        android:id="@+id/id_red"
+        android:title="中国红"
+        ></item>
+    <item
+        android:id="@+id/id_blue"
+        android:title="天空蓝"
+        ></item>
+
+</menu>
